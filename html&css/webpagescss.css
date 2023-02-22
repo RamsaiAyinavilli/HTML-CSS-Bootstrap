@@ -1,0 +1,315 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.bg{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(https://wallpapercave.com/wp/wp6351088.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    
+}
+
+ul{
+
+    float: right;  
+
+}
+ul li{
+    
+    margin-top: 20px;
+    display:inline-block;
+}
+ul li a{text-decoration: none;
+    color: aliceblue;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    border-radius: 0.7px;
+    transition: 0.7s; 
+       
+}
+ul li a:hover{
+    background-color: aliceblue;
+    color:rgb(11, 10, 10);
+    border-radius: 10px;
+    
+    
+}
+.active a {
+    background-color: aliceblue;
+    color:rgb(11, 10, 10);
+    border-radius: 10px;
+    
+    
+}
+.logo img {
+    float: left;
+    width: 160px;
+    top: 2%;
+    left:2%;
+    position:absolute;
+    
+
+}
+.logo1 img {
+    float: left;
+    width: 120px;
+    height: 70px;
+    top: 2%;
+    left:1.8%;
+    position:absolute;
+
+}
+.logo1 img:hover {
+    float: left;
+    width: 110px;
+    height: 70px;
+    top: 2%;
+    left:1.8%;
+    position:absolute;
+    transition:0.5s;
+    background-color: rgba(41, 138, 177, 0.703);
+    border-radius: 20%;
+    transition: 0.5s;
+}
+
+.logo2 img{
+    float: left;
+    width: 90px;
+    top: 2%;
+    left:2%;
+    position:absolute;
+    transition: 0.5s;
+
+}
+.logo2 img:hover {
+    float: left;
+    width: 80px;
+    top: 2%;
+    left:2%;
+    position:absolute;
+    transition:0.5s;
+    background-color: rgba(41, 138, 177, 0.703);
+    border-radius: 20%;
+
+}
+
+.title{
+    font-size: 22px;
+    color: aliceblue;
+    text-align: center;
+    top: 43%;
+    left: 32.5%;
+    position:absolute;
+}
+.title1{
+    font-size: 42px;
+    color: aliceblue;
+    text-align: center;
+    top: 40%;
+    left: 11.7%;
+    position:absolute;
+}
+.button{
+ 
+    top: 63%;
+    left: 40%;
+    position:absolute;
+    font-size: 31px;
+
+}
+.btn{
+    border: 1px solid rgba(16, 61, 186, 0.824);
+    background-color: rgba(12, 12, 117, 0.402);
+    color: aliceblue;
+    padding: 5px 20px;
+    text-decoration: none;
+
+}
+.btn:hover{
+    background-color: aliceblue;
+    color:rgb(11, 10, 10);
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+fieldset{
+    align-items: center;
+    position: absolute;
+    top: 27.5%;
+    left: 32.5%;
+    background-color: rgba(39, 57, 113, 0.489);
+    
+}
+legend{
+    font-size: 40px;
+    font-display: center;
+    color: aliceblue;
+    
+}
+table tr{
+     font-size: 20px;
+     color: aliceblue;
+
+}
+.login{
+    align-items: center;
+    position: absolute;
+    top: 39%;
+    left:37%;
+
+}
+.footer{
+ position: absolute;
+ top: 96%;
+ color: rgba(13, 4, 50, 0.973);
+}
+.text{
+    position:absolute;
+    top:23%;
+    text-align: justify;
+    left: 15%;
+    right: 15%;
+    font-size: 20px;
+    color:azure;
+
+}
+.frm{
+    position:absolute;
+    top: 32%;
+    left: 38%;
+    font-size: 20px;
+    color:aliceblue;
+}
+.field{
+    left: 100%;
+    position:absolute;
+}
+.box{
+    position: absolute;
+    left: 100%;
+    width: 100%;
+    font-size: 20px;
+}
+.box:hover{
+    position: absolute;
+    left: 100%;
+    width: 100%;
+    font-size: 20px;
+    background-color: rgba(18, 64, 155, 0.685);
+    color: aliceblue;
+}
+
+.frm1{
+    position:absolute;
+    top: 72%;
+    left: 40%;
+    font-size: 20px;
+    color:aliceblue;
+    background-color:rgba(41, 138, 177, 0.703);
+    border:1px transparent;
+     border-radius: 10px;
+     width:26% ;
+     text-align: center;
+     
+
+
+}
+.layer{
+    background-color: rgba(9, 109, 148, 0.457);
+    position:absolute;
+    top: 28%;
+    left: 38%;
+    font-size: 30px;
+    width: 28%;
+    height: 35%;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: rgba(59, 153, 212, 0.347);
+}
+#la{
+    position: absolute;
+    top: 40%;
+    left: 31%;
+    color: aliceblue;
+    font-family:cursive;
+}
+#lb{
+    position: absolute;
+    left: 83%;
+    top: 5%;
+    color:bisque;
+    }
+#lb:hover{
+        position: absolute;
+        left: 83%;
+        top: 5%;
+       color:red;
+        
+    }   
+.icon{
+        position: absolute;
+        width: 65px;
+        left: 10px;
+         }
+.icon1{
+            position: absolute;
+            width: 70px;
+            left:90px;
+            
+             } 
+.icon2{
+                position: absolute;
+                width: 70px;
+                left: 170px;
+                 }
+.icon3{  
+       position: absolute;
+       width: 70px;
+       left: 245px;
+                     }
+ .icon:hover{
+        position: absolute;
+        width: 75px;
+        left: 10px;
+        transition: 0.5s;
+         }
+.icon1:hover{
+            position: absolute;
+            width: 80px;
+            left:90px;
+            transition: 0.5s;
+            
+             }
+.icon2:hover{
+                position: absolute;
+                width: 80px;
+                left: 170px;
+                transition: 0.5s;
+                 }
+.icon3:hover{  
+       position: absolute;
+       width: 80px;
+       left: 245px;
+       transition: 0.5s;
+                     }
+.note{
+    position: absolute;
+    top: 90%;
+    left: 35%;
+}
+.map{
+    position: absolute;
+   
+   top: 80%; 
+    left: 83%;
+    
+    
+
+}
+    
