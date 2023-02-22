@@ -1,0 +1,176 @@
+*
+{
+    margin:0;
+    padding: 0;
+    
+}
+
+body{
+   width: 100%;
+   background: #0c111b;
+   position: absolute;
+   font-family: roboto,sans-serif;
+   background-attachment: fixed;
+   background-size: cover;
+   padding: auto;
+
+
+}
+nav{
+        background: #0c111b;
+    position:relative;
+    overflow:scroll;
+}
+
+.carousel-item {
+    margin-top: 5%;
+    height: 25rem;
+    background-color:#0c111b ;
+    padding-left: 2%;
+    padding-right: 2%;
+position: relative; 
+
+
+}
+.carousel-item:hover {
+    margin-top: 5%;
+    height: 25rem;
+    background-color:#0c111b ;
+    padding-left: 2%;
+    padding-right: 2%;
+position: relative;
+border-radius: 50px;
+border-style: solid;
+border-color: #0c111b;
+
+}
+.icon{
+    position: relative;
+    width: 65px;
+
+    
+     }
+.icon1{
+        position: relative;
+        width: 70px;
+        
+        
+         }
+.icon2{
+            position: relative;
+            width: 70px;
+            
+             }
+.icon3{  
+   position: relative;
+   width: 70px;
+   
+                 }
+.icon:hover{
+    position: relative;
+    border-radius: 10px;
+    background-color: rgba(19, 19, 188, 0.527);
+    transition: 0.3s;
+     }
+.icon1:hover{
+        position: relative;
+      background-color: rgba(35, 39, 239, 0.612);
+      border-radius: 10px;
+        transition: 0.3s;
+        
+         }
+.icon2:hover{
+            position: relative;
+            border-radius: 10px;
+            background-color: rgba(178, 49, 10, 0.699);
+            transition: 0.3s;
+             }
+.icon3:hover{  
+   position: relative;
+border-radius: 10px;
+   background-color: rgba(23, 15, 118, 0.607);
+   transition: 0.3s;
+                 }
+.contact{
+    text-align: center;
+    right: 8.5%;
+    position: relative;
+}
+.show{
+    position: relative;
+    
+    height: 100px;
+}
+.show:hover{
+    position: relative;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #0c111b;
+    transition: 0.3s;
+}
+.frm{
+    position:absolute;
+    top: 15%;
+    left: 38%;
+    font-size: 20px;
+    color:aliceblue;
+    padding: 1%;
+}
+.frm1{
+    position:absolute;
+    top: 20%;
+    left: 31%;
+    font-size: 20px;
+    color:aliceblue;
+    background-color: #2911926d;
+    border-radius: 10px;
+    padding: 1%;}
+label{
+    position: relative;
+    margin-top: 1%;
+
+}
+.field{
+    position: relative;
+    margin-top: 1%;
+    display: flex;
+}
+.box{
+    position: relative;
+    left: 10%;
+width:80%;
+}
+.box:hover{
+    position: relative;
+    left: 39%;
+    background-color: #1d3f81;
+    left: 10%;
+    width:80%;
+    color: aliceblue;
+}
+.box1{
+    position: relative;
+    left: 10%;
+width:80%;
+margin-top: 1%;
+}
+.box1:hover{
+    position: relative;
+    left: 39%;
+    background-color: #1d3f81;
+    left: 10%;
+    width:80%;
+    color: aliceblue;
+    margin-top: 1%;
+}
+.foot{
+    position: relative;
+    margin-top: 36%;
+}
+tr td input{
+    margin-top: 2%;
+}
+.rs{
+    position: relative;
+    left: 92%;
+}
